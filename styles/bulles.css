@@ -1,0 +1,32 @@
+.bulle {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
+
+.bulle img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.bord {
+	background-color: white;
+	padding: 16px;
+	border-radius: 15px;
+	margin: 16px;
+	text-align: center;
+	box-shadow: 1px 1px 10px 2px rgb(0 0 0 / 40%); 
+}
+
+@media (min-width: 576px) {
+	.bulle {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (min-width: 768px) {
+	.bulle {
+		grid-template-columns: 1fr 1fr 1fr;
+  }
+}

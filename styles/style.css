@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("banner.css");
+@import url("button.css");
+@import url("footer.css");
+@import url("bulles.css");
+@import url("cards.css");
+@import url("topnav.css");
+
+a {
+	text-decoration: none;
+}
+
+body {
+margin: 0;
+font-family: 'Poppins';
+}
+
+h1, h2, h3 {
+	font-family: 'Poppins';
+}
+
+h1 {
+	font-size: 60px;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+   .container{
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.icons i{
+	font-size: 34px;
+	color: darkgoldenrod;
+	justify-self: center;
+}
+
+.icons{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
+
+.how {
+	text-align: center;
+}
+
+.color {
+	background-color: rgb(98,75,57);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	white-space: 10px;
+	border-top: rgb(98,75,57);
+	border-bottom: rgb(98,75,57);
+}
+
+.work{
+	letter-spacing: 2px;
+	text-decoration: underline;
+	font-size: 38px;
+}
+
+.chatbot img {
+	width: 70px;
+	display: block;
+    position: fixed;
+    right: 0;
+    top: 54%;
+    z-index: 100001;
+    width: 70px;
+    height: 72px;
+    margin: 270px 0 0;
+    padding: 0;
+    cursor: pointer;
+}
+
